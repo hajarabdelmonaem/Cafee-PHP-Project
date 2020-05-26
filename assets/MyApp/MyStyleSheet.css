@@ -1,0 +1,287 @@
+.panel-shadow {
+    box-shadow: rgba(0, 0, 0, 0.3) 7px 7px 7px;
+}
+.panel-white {
+    border: 1px solid #dddddd;
+}
+.panel-white  .panel-heading {
+    color: #333;
+    background-color: #fff;
+    border-color: #ddd;
+}
+.panel-white  .panel-footer {
+    background-color: #fff;
+    border-color: #ddd;
+}
+
+.post .post-heading {
+    height: 95px;
+    padding: 20px 15px;
+}
+.post .post-heading .avatar {
+    width: 60px;
+    height: 60px;
+    display: block;
+    margin-right: 15px;
+}
+.post .post-heading .meta .title {
+    margin-bottom: 0;
+}
+.post .post-heading .meta .title a {
+    color: black;
+}
+.post .post-heading .meta .title a:hover {
+    color: #aaaaaa;
+}
+.post .post-heading .meta .time {
+    margin-top: 8px;
+    color: #999;
+}
+.post .post-image .image {
+    width: 100%;
+    height: auto;
+}
+.post .post-description {
+    padding: 15px;
+}
+.post .post-description p {
+    font-size: 14px;
+}
+.post .post-description .stats {
+    margin-top: 20px;
+}
+.post .post-description .stats .stat-item {
+    display: inline-block;
+    margin-right: 15px;
+}
+.post .post-description .stats .stat-item .icon {
+    margin-right: 8px;
+}
+.post .post-footer {
+    border-top: 1px solid #ddd;
+    padding: 15px;
+}
+.post .post-footer .input-group-addon a {
+    color: #454545;
+}
+.post .post-footer .comments-list {
+    padding: 0;
+    margin-top: 20px;
+    list-style-type: none;
+}
+.post .post-footer .comments-list .comment {
+    display: block;
+    width: 100%;
+    margin: 20px 0;
+}
+.post .post-footer .comments-list .comment .avatar {
+    width: 35px;
+    height: 35px;
+}
+.post .post-footer .comments-list .comment .comment-heading {
+    display: block;
+    width: 100%;
+}
+.post .post-footer .comments-list .comment .comment-heading .user {
+    font-size: 14px;
+    font-weight: bold;
+    display: inline;
+    margin-top: 0;
+    margin-right: 10px;
+}
+.post .post-footer .comments-list .comment .comment-heading .time {
+    font-size: 12px;
+    color: #aaa;
+    margin-top: 0;
+    display: inline;
+}
+.post .post-footer .comments-list .comment .comment-body {
+    margin-left: 50px;
+}
+.post .post-footer .comments-list .comment > .comments-list {
+    margin-left: 50px;
+}
+.d-none{
+    display: none !important;
+}
+.well-social-post {
+    border-radius: 0;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    padding:0;
+}
+
+.well-social-post .glyphicon,
+.well-social-post .fa,
+.well-social-post [class^='icon-'],
+.well-social-post [class*='icon-'] {
+    font-weight: bold;
+    color: #999999;
+}
+
+.well-social-post a,
+.well-social-post a:hover,
+.well-social-post a:active,
+.well-social-post a:focus {
+    text-decoration: none;
+}
+
+.well-social-post .list-inline {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.well-social-post .list-inline li {
+    position: relative;
+}
+
+.well-social-post .list-inline li.active::after {
+    position: absolute;
+    display: block;
+    width: 0;
+    height: 0;
+    content: "";
+    top: 30px;
+    left: 50%;
+    left: -webkit-calc(50% - 5px);
+    left: -moz-calc(50% - 5px);
+    left: calc(50% - 5px);
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #dddddd;
+}
+
+.well-social-post .list-inline li.active a {
+    color: #222222;
+    font-weight: bold;
+}
+
+.well-social-post .form-control {
+    width: 100%;
+    min-height: 100px;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.well-social-post .list-inline {
+    padding: 10px;
+}
+
+.well-social-post .list-inline li + li {
+    margin-left: 10px;
+}
+
+.well-social-post .post-actions {
+    margin: 0;
+    background-color: #f6f7f8;
+    border-top-color: #e9eaed;
+}
+.d-flex{
+    display: flex;
+}
+.justify-content-space-between{
+    justify-content:space-between;
+}
+.justify-content-center{
+     justify-content:center;
+}
+.align-items-center{
+     align-items: center;
+}
+.text-decoration-none{
+    text-decoration: none;
+}
+
+.hiddenRow {
+    padding: 0 !important;
+}
+.hiddenRow:before {
+     display: none;
+ }
+table {
+    margin-bottom: 0;
+}
+
+
+@media only screen and (max-width: 767px) {
+
+    /* Taken from elvery.net/demo/responsive-tables */
+
+    /* Force table to not be like tables anymore */
+    #no-more-tables > table,
+    #no-more-tables > table > thead,
+    #no-more-tables > table > tbody,
+    #no-more-tables > table > thead > tr > th,
+    #no-more-tables > table > tbody > tr > td,
+    #no-more-tables > table > tbody > tr {
+        display: block;
+    }
+
+    /* Hide table headers (but not display: none;, for accessibility) */
+    #no-more-tables > table > thead > tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+
+    #no-more-tables > table > tbody > tr { border: 1px solid #ccc; }
+
+    #no-more-tables > table > tbody > tr > td {
+        /* Behave  like a "row" */
+        border: none;
+        border-bottom: 1px solid #eee;
+        position: relative;
+        padding-left: 36.1%;
+        white-space: normal;
+        text-align:left;
+    }
+
+    #no-more-tables > table > tbody > tr > td:before {
+        /* Now like a table header */
+        position: absolute;
+        /* Top/left values mimic padding */
+        top: 0;
+        left: 0;
+        width: 33.33333333%;
+        padding-right: 10px;
+        white-space: nowrap;
+        text-align:left;
+        font-weight: bold;
+        background-color: #f5f5f5;
+        padding: 8px;
+    }
+
+    /*
+    Label the data
+    */
+    #no-more-tables td:before { content: attr(data-title); }
+
+    .table-nested,
+    .table-nested tbody,
+    .table-nested td,
+    .table-nested tr,
+    .table-nested th,
+    .table-nested tr > td {
+        width: 100%;
+        display: block;
+    }
+}
+.child{
+    width: 100% !important;
+}
+@media (min-width: 550px) {
+    .productsIcon {
+        display: flex !important;
+        justify-content: center;
+        width: 100%;
+    }
+}
+
+.login {
+    background-color: #5c97bd !important;
+}
+.login .content {
+    background-color: #5c97bd !important;
+}
+
